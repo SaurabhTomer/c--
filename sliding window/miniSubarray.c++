@@ -9,7 +9,7 @@ public:
         int mini = INT_MAX;
 
         while (high < nums.size()) {
-            // expand the window
+            
             sum = sum + nums[high];
 
             // shrink window if condition satisfied
